@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#Displays to infinity and beyod indefinately after 2 secs
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+	trap 'echo "I am invincible!!!"' SIGTERM
+done
