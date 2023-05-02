@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Displays current line of bash
+
+ps -aux | grep bash
