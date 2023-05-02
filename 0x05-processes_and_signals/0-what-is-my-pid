@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Displays self process PID
+
+echo $$
